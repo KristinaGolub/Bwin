@@ -434,7 +434,7 @@ h2, h3 {
     }
 
     .close::before {
-        content: url("/images/close-mobile.svg");
+        content: url("images/close-mobile.svg");
         width: 12px;
         height: 12px;
     }
