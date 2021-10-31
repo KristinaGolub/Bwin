@@ -1,18 +1,18 @@
-let linkModal = document.getElementById("link-modal");
+let linkModal = document.querySelector("#link-modal");
 
 linkModal.addEventListener("click", () => {
-  let modalWindow = document.getElementById("modal-window");
+  let modalWindow = document.querySelector("#modal-window");
   modalWindow.classList.remove("hidden");
 });
 
-let modalClose = document.getElementById("modal-close");
+let modalClose = document.querySelector("#modal-close");
 
 modalClose.addEventListener("click", () => {
-  let modalWindow = document.getElementById("modal-window");
+  let modalWindow = document.querySelector("#modal-window");
   modalWindow.classList.add("hidden");
 });
 
-let button = document.getElementById("button");
+let button = document.querySelector("#button");
 
 button.addEventListener("click", ()=> {
   console.log("Button clicked");
