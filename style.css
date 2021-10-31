@@ -262,7 +262,7 @@ h2, h3 {
 }
 
 .close::before{
-    content: url("/images/close.svg");
+    content: url("images/close.svg");
     width: 20px;
     height: 20px;
 }
