@@ -323,6 +323,10 @@ h2, h3 {
         box-sizing: border-box;
     }
 
+    .footer {
+        padding: 1em 0;
+    }
+
     .footer-box{
         flex-wrap: wrap;
     }
